@@ -16,3 +16,11 @@ body {
     justify-content: center;
 }
 
+header {
+    text-align: center;
+} 
+
+img {
+    padding: 20px;
+}
+
