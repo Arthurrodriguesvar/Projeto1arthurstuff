@@ -19,16 +19,24 @@
         <img src="./img/05.jpeg" width="450px" alt=""><br>
         <img src="./img/06.jpeg" width="450px" alt=""><br>
         <p>Gostou? Deixe seu Feedback...</p>
-        <button  onclick="Feedback()">Gostei  (:</button>
-        <button onclick="Feedback()">Não Gostei  ):</button>
+        <button onclick="alert('Obrigado Pela Curtida!')">Gostei  (:</button>
+        <button onclick="alert('Obrigado Mesmo Assim!')">Não Gostei  ):</button>
         <label for=""></label><br>
-        <input type="text" placeholder="Escreva um comentário..."><br>
+        <input id="Comentario" type="text" placeholder="Escreva um comentário..."><br>
         <button onclick="Feedback()">Enviar</button>
+
         <script>
             function Feedback() {
-                alert('Obrigado Pelo Feedback!')
-                if (Feedback === "") {
+                var Comentario = document.getElementById("Comentario").value
+                if (Comentario != "") {
+                    alert('Obrigado Pelo Feedback!')
                 }
+                else 
+                {
+                    return false;
+                }
+                
+               
             }
         </script>
     </nav>
