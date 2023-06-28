@@ -11,18 +11,29 @@ body {
     background-color: black;
     color: #E1D8C4;
     font-family: 'aluviondisplay';
-    display: flex;
-    padding: 15px;
-    justify-content: center;
 }
 
-header {
-    text-align: center;
+nav {
+   padding: 20px;
+    
 } 
 
-img {
+.img1 {
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+}
+
+.img2 {
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+} 
+
+.text {
     padding: 20px;
 }
+
 
 nav a {
     text-decoration: none;

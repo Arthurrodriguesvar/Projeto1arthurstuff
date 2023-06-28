@@ -9,15 +9,27 @@
 </head>
 <body>
 <header>
-    <h1>"Clicks" by Arthur (:</h1>
+    
     <nav>
-        <p>Algumas fotos amadoras tiradas por mim...</p>
-        <img src="./img/01.jpeg" width="450px" alt=""><br>
-        <img src="./img/02.jpeg" width="450px" alt=""><br>
-        <img src="./img/03.jpeg" width="450px" alt=""><br>
-        <img src="./img/04.jpeg" width="450px" alt=""><br>
-        <img src="./img/05.jpeg" width="450px" alt=""><br>
-        <img src="./img/06.jpeg" width="450px" alt=""><br>
+        <h1>"Clicks" by Arthur (:</h1><br>
+        <p>Algumas fotos amadoras tiradas por mim...</p><br>
+    </nav>
+</header>
+<section>
+    <div class="img1">
+        <img src="./img/01.jpeg" width="300px" alt=""><br>
+        <img src="./img/02.jpeg" width="300px" alt=""><br>
+        <img src="./img/03.jpeg" width="300px" alt=""><br>
+    </div>
+    <div class="img2">
+        <img src="./img/04.jpeg" width="300px" alt=""><br>
+        <img src="./img/05.jpeg" width="300px" alt=""><br>
+        <img src="./img/06.jpeg" width="300px" alt=""><br>
+    </div>
+       
+    </section>
+
+    <div class="text">
         <p>Gostou? Deixe seu Feedback...</p>
         <button onclick="alert('Obrigado Pela Curtida!')">Gostei  (:</button>
         <button onclick="alert('Obrigado Mesmo Assim!')">Não Gostei  ):</button>
@@ -25,22 +37,8 @@
         <input id="Comentario" type="text" placeholder="Escreva um comentário..." size="100"><br>
         <button onclick="Feedback()">Enviar</button><br>
         <a href="./index.html">Voltar</a>
-
-        <script>
-            function Feedback() {
-                var Comentario = document.getElementById("Comentario").value
-                if (Comentario != "") {
-                    alert('Obrigado Pelo Feedback!')
-                }
-                else 
-                {
-                    return false;
-                }
-                
-               
-            }
-        </script>
-    </nav>
-</header>
+    </div>
+        <script src="./js/index.js"></script>
+  
 </body>
 </html>
