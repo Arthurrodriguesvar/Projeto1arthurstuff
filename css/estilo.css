@@ -32,10 +32,12 @@ nav {
 
 .text {
     padding: 20px;
+    
 }
 
-
-nav a {
+a {
     text-decoration: none;
     color: #E1D8C4;
 }
+
+
