@@ -63,11 +63,11 @@ section {
 }
 
 .text2 {
-    display: flex;
+    display: block;
+    margin-top: 0;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
-    padding: 20px;
+    padding:  20px;
 }
-
 
