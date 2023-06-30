@@ -47,8 +47,9 @@ nav ul li {
 }
 
 .link :hover {
-    background-color: #E1D8C4;
-    color: #000000;
+    transition: 1s;
+    background-color: #DFDCD5;
+    color: #181818;
     
 }
 
