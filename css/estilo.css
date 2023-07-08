@@ -2,12 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Europa Grotesk SH';
+    
 }
 
+h1 {
+    font-family: 'Agrandir';
+}
 
-
-
+p {
+    font-family: 'Gotham';
+}
 
 
 body {
@@ -37,6 +41,7 @@ nav {
     padding: 20px;
     
     
+    
 }
 
 button {
@@ -46,6 +51,7 @@ button {
     border: 10px;
     text-decoration: none;
     cursor: pointer;
+    font-family: 'Gotham';
 }
 
 
@@ -57,7 +63,10 @@ a {
     color: #DFDCD5;
     padding: 3px;
     opacity: 0.3;
-    
+    font-family: 'Gotham';
 }
 
+.coment {
+    font-family: 'Gotham';
+}
 
