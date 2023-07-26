@@ -6,7 +6,7 @@
 }
 
 h1 {
-    font-family: 'Agrandir';
+    font-family: 'Futura';
 }
 
 p {
@@ -69,4 +69,11 @@ a {
 .coment {
     font-family: 'Gotham';
 }
+ .sec_art {
+    padding: 20px;
+    
+ }
 
+ section img {
+    padding: 10px;
+ }
