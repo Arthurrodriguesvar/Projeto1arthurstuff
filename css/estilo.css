@@ -22,36 +22,61 @@ body {
 
 nav {
    padding: 20px;
+   text-align: center;
     
 } 
 
 .img1 {
     display: flex;
+    justify-content: center;
+    background-color: #DFDCD5;
+    border-radius: 20px;
+    margin: 30px;
     padding: 20px;
-    gap: 10px;
+    gap: 30px;
 }
 
 .img2 {
     display: flex;
+    background-color: #DFDCD5;
+    border-radius: 20px;
+    justify-content: center;
+    margin: 30px;
     padding: 20px;
-    gap: 10px;
+    gap: 30px;
 } 
 
 .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
     padding: 20px;
-    
-    
-    
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
 }
 
 button {
     background-color: #000000;
+    border-radius: 20px;
     color: #DFDCD5;
     padding: 10px 20px;
     border: 10px;
     text-decoration: none;
     cursor: pointer;
     font-family: 'Gotham';
+}
+
+input {
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.text_p {
+    text-align: center;
 }
 
 
@@ -62,12 +87,15 @@ a {
     text-decoration: none;
     color: #DFDCD5;
     padding: 3px;
-    opacity: 0.3;
     font-family: 'Gotham';
 }
 
 .coment {
     font-family: 'Gotham';
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
 }
  .sec_art {
     padding: 20px;

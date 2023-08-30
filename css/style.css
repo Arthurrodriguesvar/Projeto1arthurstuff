@@ -7,8 +7,8 @@
 
 
 body {
-    background-color: #181818;
-    color:#DFDCD5;
+    background-color: #000000;
+   
     
     
 }
@@ -17,16 +17,22 @@ p {
     font-family: 'Gotham';
 }
 
+img {
+    border-radius: 20px;
+}
 
 
 .container-nav {
     list-style: none;
     display: flex;
+    margin: 20px;
+    border-radius: 20px;
     flex-wrap: wrap;
     gap: 5px;
     justify-content: space-between;
     align-items: center;
-    background-color: #181818;
+    background-color: #DFDCD5;
+    color: #000000;
     padding: 0px 20px;
     font-family: 'Gotham' ;
     
@@ -45,7 +51,7 @@ p {
 }
 
 a {
-    color: #DFDCD5;
+    color: #000000;
     text-decoration:none ;
 }
 
@@ -55,9 +61,8 @@ nav ul li {
 }
 
 .link :hover {
-    transition: 1s;
-    background-color: #DFDCD5;
-    color: #181818;
+    transition: 0.5s;
+    color: grey;
     
 }
 
@@ -65,10 +70,14 @@ nav ul li {
 
 section {
     display: flex;
+    border-radius: 20px;
+    margin: 20px;
+    background-color: #181818;
+    color: #DFDCD5;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    padding: 20px;
+    padding: 50px;
 }
 
 
@@ -80,6 +89,8 @@ section h1 {
     background-color: #DFDCD5;
     color: #181818;
     display: flex;
+    border-radius: 20px;
+    margin: 20px;
     justify-content: space-evenly;
     align-items: center;
     padding:  20px;
@@ -92,8 +103,10 @@ section h1 {
 .social_media {
     display: flex;
     justify-content: center;
+    border-radius: 20px;
+    margin: 20px;
     align-items: center;
-    background-color: #DFDCD5;
+    background-color: #181818;
     gap: 10px;
     padding: 20px ;
 }
