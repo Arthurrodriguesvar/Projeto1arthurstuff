@@ -73,6 +73,7 @@ button {
 input {
     border-radius: 20px;
     padding: 15px;
+    border: 10px;
 }
 
 .text_p {
